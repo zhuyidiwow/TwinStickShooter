@@ -14,7 +14,7 @@ class TWINSTICKSHOOTER_API ABaseCharacter : public ACharacter
 public:
 	//Step 2: Expose a float property
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "BaseCharacter")
-		float Health = 100;
+		float Health = 100.0f;
 
 	//Step 3: Expose a boolean property
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "BaseCharacter")
